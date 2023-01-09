@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 텍스트 : div{text} -->
+  <div>text</div>
+  <!-- 자식(하위) 요소 : div>div -->
+  <div>
+    <div></div>
+  </div>
+  <!-- 형제 요소 : div+div -->
+  <div></div>
+  <div></div>
+  <!-- 자식요소 + 형제요소 : div>p+a -->
+  <div>
+    <p></p>
+    <a href=""></a>
+  </div>
+  <!-- div>p^div -->
+  <div>
+    <p></p>
+  </div>
+  <div></div>
+  <!-- 반복하기 : * -->
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <!-- 그룹화 : ul>(li>a) -->
+  <ul>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+  </ul>
+  <!-- 속성([attr]) : img[alt="이미지설명"] -->
+  <img src="" alt="이미지설명">
+  <!-- 넘버링($) : div.item$*4 -->
+  <div class="item1"></div>
+  <div class="item2"></div>
+  <div class="item3"></div>
+  <div class="item4"></div>
+</body>
+</html>
